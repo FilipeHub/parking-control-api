@@ -15,6 +15,6 @@ public class ParkingControlApplication {
 
 	@GetMapping("/")
 	public String index(){
-		return "<h1>Hello world<h1>";
+		return "<h1>New Project<h1>";
 	}
 }
