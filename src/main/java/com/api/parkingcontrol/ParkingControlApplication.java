@@ -1,5 +1,6 @@
 package com.api.parkingcontrol;
 
+import com.api.parkingcontrol.controllers.ParkingSpotController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,6 +16,6 @@ public class ParkingControlApplication {
 
 	@GetMapping("/")
 	public String index(){
-		return "<h1>New Project<h1>";
+		return ParkingSpotController
 	}
 }
